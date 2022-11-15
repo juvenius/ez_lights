@@ -108,15 +108,6 @@
     },
     "handlers": [
         {
-            "code": "",
-            "filter": {
-                "args": [],
-                "signature": "()",
-                "slotKey": "8"
-            },
-            "key": "0"
-        },
-        {
             "code": "--load output\nlocal cc = screen.getScriptOutput()\nlocal c = load(\"return \"..cc)()\nchange_lights(c[1],c[2],c[3])  \n",
             "filter": {
                 "args": [
