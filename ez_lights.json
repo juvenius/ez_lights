@@ -1,0 +1,153 @@
+{
+    "slots": {
+        "0": {
+            "name": "light_9",
+            "type": {
+                "events": [],
+                "methods": []
+            }
+        },
+        "1": {
+            "name": "light_8",
+            "type": {
+                "events": [],
+                "methods": []
+            }
+        },
+        "2": {
+            "name": "light_7",
+            "type": {
+                "events": [],
+                "methods": []
+            }
+        },
+        "3": {
+            "name": "light_6",
+            "type": {
+                "events": [],
+                "methods": []
+            }
+        },
+        "4": {
+            "name": "light_5",
+            "type": {
+                "events": [],
+                "methods": []
+            }
+        },
+        "5": {
+            "name": "light_4",
+            "type": {
+                "events": [],
+                "methods": []
+            }
+        },
+        "6": {
+            "name": "light_3",
+            "type": {
+                "events": [],
+                "methods": []
+            }
+        },
+        "7": {
+            "name": "light_2",
+            "type": {
+                "events": [],
+                "methods": []
+            }
+        },
+        "8": {
+            "name": "light_1",
+            "type": {
+                "events": [],
+                "methods": []
+            }
+        },
+        "9": {
+            "name": "screen",
+            "type": {
+                "events": [],
+                "methods": []
+            }
+        },
+        "-1": {
+            "name": "unit",
+            "type": {
+                "events": [],
+                "methods": []
+            }
+        },
+        "-3": {
+            "name": "player",
+            "type": {
+                "events": [],
+                "methods": []
+            }
+        },
+        "-2": {
+            "name": "construct",
+            "type": {
+                "events": [],
+                "methods": []
+            }
+        },
+        "-4": {
+            "name": "system",
+            "type": {
+                "events": [],
+                "methods": []
+            }
+        },
+        "-5": {
+            "name": "library",
+            "type": {
+                "events": [],
+                "methods": []
+            }
+        }
+    },
+    "handlers": [
+        {
+            "code": "",
+            "filter": {
+                "args": [],
+                "signature": "()",
+                "slotKey": "8"
+            },
+            "key": "0"
+        },
+        {
+            "code": "--load output\nlocal cc = screen.getScriptOutput()\nlocal c = load(\"return \"..cc)()\nchange_lights(c[1],c[2],c[3])  \n",
+            "filter": {
+                "args": [
+                    {
+                        "variable": "*"
+                    }
+                ],
+                "signature": "onOutputChanged(output)",
+                "slotKey": "9"
+            },
+            "key": "1"
+        },
+        {
+            "code": "-- Juvenius' EZ Lights\n-- 15.11.2022 | Version 1.01\n-- Discord: Juvenius#2318\n\n\n--Light slots 1-9\nfunction change_lights(r,g,b)    \n    light_1.setColor(r,g,b)\n    light_2.setColor(r,g,b)\n    light_3.setColor(r,g,b)\n    light_4.setColor(r,g,b)\n    light_5.setColor(r,g,b)\n    light_6.setColor(r,g,b)\n    light_7.setColor(r,g,b)\n    light_8.setColor(r,g,b)\n    light_9.setColor(r,g,b)\nend\n  ",
+            "filter": {
+                "args": [],
+                "signature": "onStart()",
+                "slotKey": "-1"
+            },
+            "key": "2"
+        },
+        {
+            "code": "-- clear screen output when stoped\nscreen.clearScriptOutput()",
+            "filter": {
+                "args": [],
+                "signature": "onStop()",
+                "slotKey": "-1"
+            },
+            "key": "3"
+        }
+    ],
+    "methods": [],
+    "events": []
+}
