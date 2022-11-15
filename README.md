@@ -1,11 +1,8 @@
 # EZ Lights
 ![Intro](/img/intro.gif)
 
-
 ## Description
-EZ Light is a quick scrip to control light colors and intensity. Up to 9 lights can be controled at the same time.
-
-
+EZ Lights by Juvenius is a LUA SCRIP that helps controls color and intensity of your lights. You just need a programing board and a screen. Up to 9 lights can be controled at the same time. Where to get it? https://github.com/juvenius/ez_lights
 
 ## Installation:
 - place prog board
