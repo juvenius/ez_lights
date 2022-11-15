@@ -1,5 +1,10 @@
 # EZ Lights
 
+## Description
+EZ Light is a quick scrip to control light colors and intensity. Up to 9 lights can be controled at the same time.
+
+
+
 ## Installation:
 - place prog board
 - link lights first <--important
