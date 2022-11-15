@@ -1,9 +1,8 @@
 # EZ Lights
-
+![Intro](/img/intro.gif)
 
 
 ## Description
-![Intro](/img/intro.gif)
 EZ Light is a quick scrip to control light colors and intensity. Up to 9 lights can be controled at the same time.
 
 
