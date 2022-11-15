@@ -13,7 +13,7 @@ EZ Light is a quick scrip to control light colors and intensity. Up to 9 lights 
 - paste code from ez_lights.json
 
 ## Guide Images
-![Intro](/img/intro.mp4)
+![Intro](/img/intro.gif)
 ![Picture 1](/img/1.jpg)
 ![Picture 2](/img/2.jpg)
 ![Picture 3](/img/3.png)
