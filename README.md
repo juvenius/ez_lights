@@ -12,7 +12,7 @@ EZ Lights by Juvenius is a LUA SCRIP that helps controls color and intensity of 
 ## Installation:
 - place prog board
 - link lights first <--important
-- name all lights light_1, light_2...as shown on the picture 3.
+- name all lights light_1, light_2...as shown on the picture 3. If you use less than 9 lights delete the lines where in the code side where you dont have light in slots.
 - link screen
 - paste to the programing board code from ez_lights_pb.json
 - paste to the screen board code from ez_lights_screen.lua
